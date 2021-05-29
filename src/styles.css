@@ -1,0 +1,20 @@
+h1 {
+  text-align: right;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: left;
+  font-size: 14px;
+}
+
+.app-body {
+}
+
+.weather-details {
+  font-size: 12px;
+}
