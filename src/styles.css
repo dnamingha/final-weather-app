@@ -1,5 +1,10 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 h1 {
   text-align: right;
+  margin-bottom: 0;
 }
 
 h2,
@@ -7,12 +12,58 @@ h3 {
   text-align: center;
 }
 
+h2 {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
 h4 {
   text-align: left;
   font-size: 14px;
 }
 
+p {
+  font-size: 12px;
+}
+
+ul {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 0 auto;
+  list-style: none;
+  padding: 5px 5px;
+}
+
 .app-body {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #e2e4ec;
+  border-radius: 10px;
+}
+
+.date-details {
+  font-size: 12px;
+}
+
+#date-today {
+  padding-right: 10px;
+}
+
+.icon-background {
+  padding: 20px;
 }
 
 .weather-details {

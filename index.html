@@ -6,44 +6,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500;600&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="src/styles.css">
   <title>Weather App</title>
 </head>
 <body>
   <div class="container">
     <div class="app-body">
-      <p>
+      <div class="date-details">
         <span id="day-today">Monday</span> <span id="date-today">15th</span>
         <span id="time-now">15:00</span> <span id="timezone-here">CEST</span>
-      </p>
-      <div class="row">
-        <div class="col-6">
-          <h1>
-            12
-          </h1>
-        </div>
-        <div class="col-6">
-          <h4>
-            <a href="#">°C</a> | <a href="#">F</a>
-          </h4>
-        </div>
       </div>
-      <h3>
-        Clear
-      </h3>
-      <h2>
-        Amsterdam
-      </h2>
-      <div class="row weather-details">
-        <div class="col-4"></div>
-        <div class="col-2">
+      <div class="icon-background">
+        <div class="row">
+          <div class="col-6">
+            <h1>
+              12
+            </h1>
+          </div>
+          <div class="col-6">
+            <h4>
+              <a href="#">°C</a> | <a href="#">F</a>
+            </h4>
+          </div>
+        </div>
+        <h3>
+          - <span id="weather-description">Clear</span> -
+        </h3>
+        <h2>
+          Amsterdam
+        </h2>
+      </div>
+      <ul class="weather-details">
+        <li>
           Humidity: <span id="humidity">5</span>%
-        </div>
-        <div class="col-2">
+        </li>
+        <li>
           Wind: <span id="wind">5</span> km/h
-        </div>
-        <div class="col-4"></div>
-      </div>
+        </li>
+      </ul>
     </div>
   </div>
   <script src="src/script.js"></script>
