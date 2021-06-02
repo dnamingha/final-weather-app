@@ -3,7 +3,9 @@ body {
 }
 
 h1 {
+  font-size: 40px;
   text-align: right;
+  line-height: 1;
   margin-bottom: 0;
   color: #ec6e4b;
 }
@@ -11,6 +13,12 @@ h1 {
 h2,
 h3 {
   text-align: center;
+}
+
+h3,
+h4,
+p {
+  color: #231e23;
 }
 
 h2 {
@@ -26,18 +34,11 @@ h3 {
 }
 
 h4 {
-  text-align: left;
   font-size: 14px;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
 }
 
 p {
   font-size: 12px;
-  color: #231e23;
 }
 
 ul {
@@ -54,9 +55,13 @@ li {
   padding: 5px 5px;
 }
 
+small {
+  font-size: 10px;
+}
+
 .app-body {
   max-width: 600px;
-  margin: 30px auto;
+  margin: 30px auto 15px;
   padding: 20px;
   border: 1px solid #e2e4ec;
   border-radius: 10px;
@@ -70,10 +75,26 @@ li {
   padding-right: 10px;
 }
 
-.icon-background {
+.temperature-details {
   padding: 20px;
+}
+
+.temperature-details img {
+  display: block;
+  margin: 0 auto;
+}
+
+.units {
+  position: relative;
+  bottom: -19px;
+  left: -10px;
 }
 
 .weather-details {
   font-size: 12px;
+}
+
+#main-temperature {
+  position: relative;
+  left: 5px;
 }
