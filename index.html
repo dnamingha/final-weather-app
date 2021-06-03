@@ -19,8 +19,28 @@
   <div class="app-frame">
     <div class="container">
       <div class="app-body">
-        <div class="date-details">
-          Last updated: <span id="day-details"><span id="timezone-here">CEST</span>
+        <div class="row">
+          <div class="col-6">
+          <div class="date-details">
+              Last updated: <span id="day-details"><span id="timezone-here">CEST</span>
+            </div>
+          </div>
+            <div class="col-4">
+              <form id="search-form">
+              <input
+              type="search"
+              placeholder="Take me to..."
+              class="form-control search-bar"
+              id="city-input"
+              autocomplete="off">
+            </div>
+            <div class="col-2">
+              <input
+              type="submit"
+              value="Go"
+              class="btn btn-primary w-100 submit-bar">
+            </div>
+          </form>
         </div>
         <div class="temperature-details">
           <img

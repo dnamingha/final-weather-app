@@ -74,10 +74,26 @@ small {
 
 .date-details {
   font-size: 10px;
+  margin-top: 7px;
 }
 
 #day-today {
   padding-left: 5px;
+}
+
+.search-bar,
+.submit-bar {
+  font-size: 10px;
+  padding: 5px;
+  border-color: #ec6e4b;
+}
+
+.submit-bar {
+  background-color: #ec6e4b;
+}
+
+.submit-bar:hover {
+  background-color: #48484a;
 }
 
 .temperature-details {
