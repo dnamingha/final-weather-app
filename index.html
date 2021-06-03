@@ -10,47 +10,49 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500;600&display=swap"
     rel="stylesheet">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
   <link rel="stylesheet" href="src/styles.css">
   <title>Weather App</title>
 </head>
 <body>
-  <div class="container">
-    <div class="app-body">
-      <div class="date-details">
-        <span id="day-today">Monday</span> <span id="date-today">15th</span>
-        <span id="time-now">15:00</span> <span id="timezone-here">CEST</span>
-      </div>
-      <div class="temperature-details">
-        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="Open Weather Icon">
-        <div class="row">
-          <div class="col-6">
-            <h1 id="main-temperature">
-              12
-            </h1>
-          </div>
-          <div class="col-6">
-            <h4 class="units">
-              <a href="#">°C</a> | <a href="#">°F</a>
-            </h4>
-          </div>
+  <div class="app-frame">
+    <div class="container">
+      <div class="app-body">
+        <div class="date-details">
+          <span id="day-today">Monday</span> <span id="date-today">15th</span>
+          <span id="time-now">15:00</span> <span id="timezone-here">CEST</span>
         </div>
-        <h3>
-          - <span id="weather-description">Clear</span> -
-        </h3>
+        <div class="temperature-details">
+          <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="Open Weather Icon">
+          <div class="row">
+            <div class="col-6">
+              <h1 id="main-temperature">
+              </h1>
+            </div>
+            <div class="col-6">
+              <h4 class="units">
+                <a href="#">°C</a> | <a href="#">°F</a>
+              </h4>
+            </div>
+          </div>
+          <h3>
+            - <span id="weather-description"></span> -
+          </h3>
+        </div>
+        <h2 id="city">
+        </h2>
+        <ul class="weather-details">
+          <li>
+            Humidity: <span id="humidity"></span>%
+          </li>
+          <li>
+            Wind: <span id="wind"></span> km/h
+          </li>
+        </ul>
       </div>
-      <h2>
-        Amsterdam
-      </h2>
-      <ul class="weather-details">
-        <li>
-          Humidity: <span id="humidity">5</span>%
-        </li>
-        <li>
-          Wind: <span id="wind">5</span> km/h
-        </li>
-      </ul>
+      <small> <a href="https://github.com/dnamingha/final-weather-app">Open-source code</a> by Dalauhongsie Namingha</small>
     </div>
-    <small> <a href="https://github.com/dnamingha/final-weather-app">Open-source code</a> by Dalauhongsie Namingha</small>
   </div>
   <script src="src/script.js"></script>
 </body>
