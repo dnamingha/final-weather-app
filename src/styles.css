@@ -71,8 +71,8 @@ small {
 
 .date-details {
   font-size: 10px;
-  margin-top: 7px;
   font-weight: 300;
+  margin-top: 7px;
 }
 
 #day-today {
@@ -81,9 +81,9 @@ small {
 
 .github-link,
 .footnote {
-  text-decoration: none;
   color: #48484a;
   font-weight: 200;
+  text-decoration: none;
 }
 
 .github-link:hover {
@@ -120,21 +120,22 @@ small {
 }
 
 .celsius {
-  position: relative;
   bottom: -19px;
+  position: relative;
   left: 10px;
 }
 
 .weather-details {
   font-size: 12px;
   font-weight: 300;
+  margin-bottom: 50px;
 }
 
 .weather-forecast {
-  margin-top: 20px;
-  text-align: center;
   color: #48484a;
   font-weight: 300;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .weather-forecast-day {
