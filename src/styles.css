@@ -63,10 +63,10 @@ small {
 }
 
 .app-body {
-  background-image: linear-gradient(to top, #21409b07 0%, #fff 100%);
+  background-image: linear-gradient(to top, #21409b04 0%, #fff 100%);
   border: 1px solid #e2e4ec;
-  border-radius: 10px;
-  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  border-radius: 15px;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
   margin-bottom: 15px;
   padding: 20px;
 }
@@ -86,14 +86,14 @@ small {
   padding-left: 5px;
 }
 
-.github-link,
-.footnote {
+.footnote,
+.source-links {
   color: #48484a;
   font-weight: 200;
   text-decoration: none;
 }
 
-.github-link:hover {
+.source-links:hover {
   color: #21409b;
 }
 
@@ -107,6 +107,7 @@ small {
   font-size: 10px;
   padding: 5px;
   border-color: #ec6e4b;
+  border-radius: 8px;
 }
 
 .submit-bar {
@@ -115,6 +116,7 @@ small {
 
 .submit-bar:hover {
   background-color: #21409b;
+  transition: 400ms;
 }
 
 .temperature-details {
