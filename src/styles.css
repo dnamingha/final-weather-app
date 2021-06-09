@@ -92,7 +92,7 @@ small {
 
 #main-temperature {
   position: relative;
-  left: 5px;
+  left: 30px;
 }
 
 .search-bar,
@@ -119,16 +119,10 @@ small {
   margin: 0 auto;
 }
 
-.units {
+.celsius {
   position: relative;
   bottom: -19px;
-  left: -10px;
-}
-
-.units .active {
-  color: #48484a;
-  text-decoration: none;
-  cursor: default;
+  left: 10px;
 }
 
 .weather-details {
