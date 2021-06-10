@@ -66,6 +66,7 @@ small {
 }
 
 .celsius {
+  color: #48484a;
   font-size: 14px;
   position: relative;
   bottom: 19px;
