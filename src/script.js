@@ -77,7 +77,7 @@ function getForecast(coordinates) {
 }
 
 function displayTemperature(response) {
-  let temperatureElement = document.querySelector("#main-temperature");
+  let temperatureElement = document.querySelector("#temperature-now");
   let cityElement = document.querySelector("#city");
   let weatherDescription = document.querySelector("#weather-description");
   let humidityElement = document.querySelector("#humidity");

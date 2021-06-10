@@ -3,37 +3,25 @@ body {
 }
 
 h1 {
-  color: #ec6e4b;
-  font-size: 40px;
-  line-height: 1;
-  margin-bottom: 0;
-  text-align: right;
-}
-
-h2,
-h3 {
-  text-align: center;
-}
-
-h3,
-h4,
-p {
-  color: #48484a;
-  font-weight: 300;
-  font-size: 14px;
-}
-
-h2 {
   color: #21409b;
   font-family: "Bebas Neue", cursive;
   font-size: 42px;
   letter-spacing: 4px;
   text-transform: uppercase;
   margin: 15px 0 20px;
+  text-align: center;
 }
 
-h3 {
+h2 {
   margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+h2,
+p {
+  color: #48484a;
+  font-weight: 300;
 }
 
 hr {
@@ -80,8 +68,25 @@ small {
 .celsius {
   font-size: 14px;
   position: relative;
-  left: 12px;
-  top: 2px;
+  bottom: 19px;
+}
+
+.city-max-min {
+  font-size: 12px;
+  text-align: center;
+}
+
+.city-temperature {
+  text-align: center;
+}
+
+.city-temperature-details {
+  padding: 20px;
+}
+
+.city-temperature-details img {
+  display: block;
+  margin: 0 auto;
 }
 
 .date-details {
@@ -105,14 +110,14 @@ small {
   color: #21409b;
 }
 
-#main-temperature {
-  position: relative;
-  left: 34px;
+#max-today,
+.weather-forecast-temperature-max {
+  opacity: 0.8;
 }
 
-.main-max-min {
-  font-size: 12px;
-  text-align: center;
+#min-today,
+.weather-forecast-temperature-min {
+  opacity: 0.6;
 }
 
 .search-bar,
@@ -132,23 +137,11 @@ small {
   transition: 400ms;
 }
 
-#max-today,
-.weather-forecast-temperature-max {
-  opacity: 0.8;
-}
-
-#min-today,
-.weather-forecast-temperature-min {
-  opacity: 0.6;
-}
-
-.temperature-details {
-  padding: 20px;
-}
-
-.temperature-details img {
-  display: block;
-  margin: 0 auto;
+#temperature-now {
+  color: #ec6e4b;
+  font-size: 40px;
+  line-height: 1;
+  margin-bottom: 0;
 }
 
 .weather-details {
